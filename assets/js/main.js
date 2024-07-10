@@ -197,7 +197,7 @@ let time = gsap.timeline({
     scrollTrigger: {
         trigger: ".footer-menu",
         start: "top 60%",
-        markers: true,
+        markers: false,
         scrub: 1,
         duration: 3,
     }
