@@ -1,0 +1,1 @@
+ sass --watch "C:\Users\Diganta\Desktop\frontend practis\forner\assets\scss\main.scss":"C:\Users\Diganta\Desktop\frontend practis\forner\assets\css\style.css"

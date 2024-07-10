@@ -1,0 +1,15 @@
+@use '../../utils' as *;
+
+
+.video-player{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.logo, .menu{
+    & a{
+        font-size: 35px;
+        text-transform: uppercase;
+    }
+}

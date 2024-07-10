@@ -1,0 +1,36 @@
+
+
+//Placeholder input
+
+@mixin tc-placeholder{
+    &::-webkit-input-placeholder{
+        @content;
+    }
+    &:-moz-placeholder {
+        @content;
+    }
+    &::-moz-placeholder{
+        @content;
+    }
+    &:-ms-input-placeholder{
+        @content;
+    }
+}
+
+@mixin transition($transition) {
+    -moz-transition: $transition;
+    -o-transition: $transition;
+    -ms-transition: $transition;
+    -webkit-transition: $transition;
+    transition: $transition;
+ }
+
+ @mixin transform($transforms) {
+    -moz-transform: $transforms;
+    -o-transform: $transforms;
+    -ms-transform: $transforms;
+    -webkit-transform: $transforms;
+    transform: $transforms;
+ }
+
+

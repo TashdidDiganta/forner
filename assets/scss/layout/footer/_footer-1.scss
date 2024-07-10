@@ -1,0 +1,28 @@
+@use '../../utils' as *;
+
+.td-footer{
+    
+    background-color:#acb4b8;
+}
+
+.footer-logo{
+    margin-top: 100px;
+    & span{
+        color: #ffff;
+        font-size: 400px;
+    }
+}
+
+.footer-menu{
+    padding: 300px 20px 80px 20px;
+    & ul {
+        & li{
+            list-style: none;
+            & a{
+                color:#666E72;
+                font-size: 50px;
+            }
+        }
+    }
+}
+
